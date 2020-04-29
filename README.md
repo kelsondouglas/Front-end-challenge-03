@@ -32,4 +32,6 @@ Your users should be able to:
     [x] Desenvolver Layout Desktop
     [x] Desenvolver Responsividade
     [x] Ajustar formatações CSS finais / hover etc
-    [] Aplicar Javascript para validação de e-mail ao formulário
+    [x] Aplicar Javascript para validação de e-mail ao formulário
+
+  LINK PARA ACESSAR O PROJETO: [CLIQUE AQUI PARA ACESSAR](https://front-end-challenge-03.kelsondouglas.now.sh/)
