@@ -22,12 +22,17 @@ body {
     height: 100vh;
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .img {
     background: url(/images/hero-desktop.jpg) no-repeat center;
     background-size: cover;
     width: 45%;
+}
+
+.img-mobile img{
+    display: none;
 }
 
 .logo {
@@ -50,7 +55,6 @@ body {
     text-transform: uppercase;
     letter-spacing: 1rem;
     margin:30px 0;
-
 }
 
 .text h1 span, .text p  {
@@ -117,4 +121,33 @@ button:hover {
     margin: 5px 0 0 15px;
     color: hsl(0, 36%, 70%);
     font-size: 0.8rem;
+}
+
+
+@media(max-width: 900px) {
+    .img {
+        display: none;
+    }
+
+    .img-mobile img{
+        display: block;
+        width: 100%;
+        height: 100%;
+    }
+    .left {
+        width: 100%;
+        padding: 0;
+    }
+
+    .text {
+    margin-top: 10px;
+    }
+
+    .text h1, .text p {
+    text-align: center;
+    }
+
+    .email {
+        margin: 50px 30px;
+    }
 }
