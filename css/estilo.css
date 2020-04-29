@@ -75,6 +75,11 @@ body {
     position: relative;
 }
 
+.email-error {
+    border: 2px red solid !important;
+
+}
+
 input {
     width: 73%;
     border: none;
@@ -87,6 +92,14 @@ input::placeholder {
     color: hsl(0, 36%, 70%);
     font-family: 'Josefin Sans', sans-serif;
     font-size: 1rem;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus, 
+input:-webkit-autofill:active  {
+    -webkit-box-shadow: 0 0 0 30px white inset !important;
+    border-radius: 25px;
 }
 
 button {
@@ -111,16 +124,16 @@ button:hover {
 .img-error {
     position: absolute;
     top: calc(50% - 12px);
-    display: none;
-}
-.error {
-    display: none;
 }
 
 .error p{
     margin: 5px 0 0 15px;
     color: hsl(0, 36%, 70%);
     font-size: 0.8rem;
+}
+
+.hidden {
+    display: none;
 }
 
 

@@ -28,13 +28,13 @@
         <p>  Hello fellow shoppers! We're currently building our new fashion store. 
           Add your email below to stay up-to-date with announcements and our launch deals.</p>
   
-        <div class="email">
-          <input type="text" placeholder="Email Address">
-          <img src="./images/icon-error.svg" alt="" class="img-error">
-          <button type="submit"><img src="images/icon-arrow.svg" alt=""></button>
+        <div class="email" id="id-email">
+          <input type="text" placeholder="Email Address" id="email">
+          <img id="img-error" src="./images/icon-error.svg" alt="" class="img-error hidden">
+          <button type="submit" onclick="validar()" ><img src="images/icon-arrow.svg" alt=""></button>
         </div>
 
-        <div class="error">
+        <div class="error hidden" id="text-error">
           <p>Please provide a valid email</p>
         </div>
   
@@ -47,6 +47,6 @@
 
 
   <!-- JavaScript-->
-  <script src="main.js"></script>
+  <script src="/js/main.js"></script>
 </body>
 </html>

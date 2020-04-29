@@ -30,6 +30,6 @@ Your users should be able to:
 ## Objetivos
 
     [x] Desenvolver Layout Desktop
-    [] Desenvolver Responsividade
-    [] Ajustar formatações CSS finais / hover etc
+    [x] Desenvolver Responsividade
+    [x] Ajustar formatações CSS finais / hover etc
     [] Aplicar Javascript para validação de e-mail ao formulário
